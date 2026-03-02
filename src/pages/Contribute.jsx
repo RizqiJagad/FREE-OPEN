@@ -1,6 +1,5 @@
 import HowToStep from "../components/ui/HowToStep";
 
-/** The JSON format contributors should follow when adding themselves. */
 const JSON_EXAMPLE = `{
   "name": "Your Full Name",
   "github": "your-github-username",
@@ -8,7 +7,6 @@ const JSON_EXAMPLE = `{
   "twitter": "your-twitter-handle"
 }`;
 
-/** Steps for contributing to the project. */
 const STEPS = [
   {
     title: "Fork the Repository",
@@ -52,13 +50,9 @@ const STEPS = [
   },
 ];
 
-/** The GitHub repository base URL for issue template links. */
+
 const REPO_URL = "https://github.com/jmngandu/FREE-OPEN";
 
-/**
- * Contribute page provides a step-by-step guide for new contributors
- * and links to issue templates for feature requests, bug reports, etc.
- */
 export default function Contribute() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-12">
