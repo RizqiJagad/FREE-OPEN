@@ -1,8 +1,5 @@
 import { Link } from "react-router-dom";
 
-/**
- * NotFound renders a 404 page for unmatched routes.
- */
 export default function NotFound() {
   return (
     <div className="max-w-md mx-auto px-4 py-24 text-center">
