@@ -31,6 +31,7 @@ pnpm-debug.log*
 Thumbs.db
 
 # Vite
+.vite/
 *.local
 
 # Coverage
