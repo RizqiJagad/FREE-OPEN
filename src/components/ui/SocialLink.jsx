@@ -2,7 +2,6 @@ import githubIcon from "../../assets/images/github.svg";
 import linkedinIcon from "../../assets/images/linkedin.svg";
 import twitterIcon from "../../assets/images/x-twitter.svg";
 
-/** Maps platform names to their base URL and icon asset. */
 const PLATFORMS = {
   github: { url: "https://github.com/", icon: githubIcon, label: "GitHub" },
   linkedin: {
@@ -17,10 +16,6 @@ const PLATFORMS = {
   },
 };
 
-/**
- * SocialLink renders a single social media link with a platform icon.
- * Returns null if the username is not provided (handles optional fields).
- */
 export default function SocialLink({ platform, username }) {
   if (!username) return null;
 

@@ -1,9 +1,5 @@
 import { useTheme } from "../../hooks/useTheme";
 
-/**
- * ThemeToggle renders a text-only button to switch between light and dark mode.
- * The button label shows what mode the user will switch TO.
- */
 export default function ThemeToggle() {
   const { theme, toggleTheme } = useTheme();
 
