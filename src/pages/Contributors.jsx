@@ -3,10 +3,6 @@ import { Link } from "react-router-dom";
 import ContributorCard from "../components/ui/ContributorCard";
 import contributors from "../data/contributors.json";
 
-/**
- * Contributors page displays all project contributors in a searchable grid.
- * Data is loaded from the static JSON file.
- */
 export default function Contributors() {
   const [search, setSearch] = useState("");
 
