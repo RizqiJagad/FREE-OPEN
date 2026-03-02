@@ -2,10 +2,7 @@ import { Link } from "react-router-dom";
 import ContributorCard from "../components/ui/ContributorCard";
 import contributors from "../data/contributors.json";
 
-/**
- * Home is the landing page with a hero section, project description,
- * and a preview of featured contributors.
- */
+
 export default function Home() {
   // Show first 3 contributors as a featured preview
   const featured = contributors.slice(0, 3);
