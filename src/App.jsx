@@ -6,11 +6,6 @@ import Contributors from "./pages/Contributors";
 import Contribute from "./pages/Contribute";
 import NotFound from "./pages/NotFound";
 
-/**
- * App defines the route structure for the site.
- * All pages render inside the Layout wrapper which provides
- * the shared Navbar and Footer.
- */
 export default function App() {
   return (
     <BrowserRouter>
