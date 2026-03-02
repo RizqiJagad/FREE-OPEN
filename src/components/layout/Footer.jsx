@@ -1,7 +1,4 @@
-/**
- * Footer renders the site footer with FAQ, contact, and GitHub links
- * plus a copyright notice.
- */
+
 export default function Footer() {
   return (
     <footer className="border-t border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-900">
@@ -25,7 +22,7 @@ export default function Footer() {
             Contact
           </a>
           <a
-            href="https://github.com/jmngandu/FREE-OPEN"
+            href="https://github.com/mukuvi/FREE-OPEN"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-600 dark:text-gray-400 hover:text-brand-teal
@@ -37,7 +34,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <p className="text-center text-xs text-gray-500 dark:text-gray-500">
-          Copyright 2024 FREE&OPEN | All rights reserved.
+          © {new Date().getFullYear()} FREE&OPEN | All rights reserved.
         </p>
       </div>
     </footer>
