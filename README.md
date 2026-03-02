@@ -1,73 +1,102 @@
-# Feel free to collaborate
+# FREE&OPEN
 
-This is an open-source repository where you can learn how to contribute to open-source by adding features or documentation
+An open-source project designed to help newcomers learn how to contribute to open-source projects. Whether you are a student, a self-taught developer, or someone curious about open source, this is the place to start.
 
-# Contributing to Git Demo
+## Tech Stack
 
-Thank you for considering contributing to FREE&OPEN! By participating in this project, you help make it better. Whether you're reporting bugs, suggesting enhancements or contributing code, your collaboration is valued.
+- **React 18** -- component-based UI
+- **Vite** -- fast build tool and dev server
+- **Tailwind CSS** -- utility-first styling with dark mode support
+- **React Router** -- client-side routing
 
-## Table of Contents
+## Getting Started
 
-- [Code of Conduct](#code-of-conduct)
-- [How to Contribute](#how-to-contribute)
-  - [Reporting Bugs](#reporting-bugs)
-  - [Suggesting Enhancements](#suggesting-enhancements)
-  - [Code Contribution](#code-contribution)
-- [Development Setup](#development-setup)
-- [Branching Strategy](#branching-strategy)
-- [Commit Guidelines](#commit-guidelines)
-- [Pull Request Process](#pull-request-process)
-- [Code Review](#code-review)
-- [Community](#community)
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18 or later)
+- npm (comes with Node.js)
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/jmngandu/FREE-OPEN.git
+
+# Navigate into the project
+cd FREE-OPEN
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+The site will be available at `http://localhost:5173`.
+
+### Build for Production
+
+```bash
+npm run build
+npm run preview   # Preview the production build locally
+```
+
+## Project Structure
+
+```
+src/
+  assets/images/      -- SVG icons and image assets
+  components/
+    layout/           -- Navbar, Footer, Layout wrapper
+    ui/               -- Reusable UI components (cards, buttons, steps)
+  context/            -- React context providers (theme)
+  data/               -- Static data files (contributors.json)
+  hooks/              -- Custom React hooks
+  pages/              -- Route page components
+  App.jsx             -- Route definitions
+  main.jsx            -- Application entry point
+  index.css           -- Tailwind CSS directives
+```
+
+## How to Add Yourself as a Contributor
+
+1. Fork this repository
+2. Clone your fork: `git clone https://github.com/<YOUR-USERNAME>/FREE-OPEN.git`
+3. Install dependencies: `npm install`
+4. Create a branch: `git checkout -b add-your-name`
+5. Open `src/data/contributors.json` and add your entry at the end of the array:
+
+```json
+{
+  "name": "Your Full Name",
+  "github": "your-github-username",
+  "linkedin": "your-linkedin-slug",
+  "twitter": "your-twitter-handle"
+}
+```
+
+6. Run `npm run dev` and verify your card appears at `/contributors`
+7. Commit and push: `git add . && git commit -m "Add your-name to contributors" && git push origin add-your-name`
+8. Open a pull request on the original repository
+
+Once your PR is merged, your card will appear on the live site automatically.
+
+## Other Ways to Contribute
+
+- [Suggest a Feature](https://github.com/jmngandu/FREE-OPEN/issues/new?template=feature_request.md)
+- [Report a Bug](https://github.com/jmngandu/FREE-OPEN/issues/new?template=bug_report.md)
+- [Submit an Improvement](https://github.com/jmngandu/FREE-OPEN/issues/new?template=changes-you-recommend.md)
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed contribution guidelines.
 
 ## Code of Conduct
 
-This project follows the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report any unacceptable behaviour.
+This project follows the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md). Please read it before participating.
 
-## How to Contribute
+## License
 
-## Reporting Bugs
-
-If you encounter a bug, please open an issue. Before creating an issue, check if the bug hasn't been reported yet. Include details about the environment and steps to reproduce the bug.
-
-### Suggesting Enhancements
-
-For enhancements or feature requests, please open an issue. Clearly describe the proposed feature and its use case. Discuss the feasibility and potential implementation details.
-
-### Code Contribution
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix: `git checkout -b feature-name`.
-3. Make your changes and commit them: `git commit -m "Description of changes"`.
-4. Push your changes to the new branch: `git push origin feature-name`.
-5. Open a pull request and provide a clear title and description.
-
-## Development Setup
-
-Provide instructions on how to set up the development environment locally. Include any dependencies and configuration needed.
-
-## Branching Strategy
-
-Explain the branching strategy used in the project (e.g., feature branches, release branches)
-
-## Commit Guidelines
-
-Follow a consistent style for commit messages. Use clear and concise messages that convey the purpose of the commit.
-
-## Pull Request Process
-
-1. Ensure your code follows the project's coding standards.
-2. Provide a clear title and description for your pull request.
-3. Include relevant test cases for your changes.
-4. Ensure the pull request is up-to-date with the latest changes from the main branch.
-5. Request a code review from maintainers.
-
-## Code Review
-
-All contributions go through a code review process. Be open to feedback and address any comments or suggestions.
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
 ## Community
 
-Join our community and engage with other contributors. You can find us on [ https://github.com/The-Puff-Adders].
-
-Happy contributing!
+Join us on the [FREE&OPEN GitHub Organization](https://github.com/FREE-OPEN) to connect with other contributors.

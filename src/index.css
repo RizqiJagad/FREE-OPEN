@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth theme transition */
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Respect reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  body {
+    transition: none;
+  }
+  * {
+    transition-duration: 0s !important;
+    animation-duration: 0s !important;
+  }
+}
