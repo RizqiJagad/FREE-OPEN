@@ -96,7 +96,3 @@ This project follows the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.
 ## License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-
-## Community
-
-Join us on the [FREE&OPEN GitHub Organization](https://github.com/FREE-OPEN) to connect with other contributors.
