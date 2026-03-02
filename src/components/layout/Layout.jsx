@@ -2,11 +2,6 @@ import { Outlet } from "react-router-dom";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
-/**
- * Layout wraps all pages with the shared Navbar and Footer.
- * The Outlet renders the matched child route between them.
- * A skip-navigation link is included for accessibility.
- */
 export default function Layout() {
   return (
     <div className="min-h-screen flex flex-col bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100">
