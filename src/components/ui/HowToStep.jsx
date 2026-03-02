@@ -1,7 +1,4 @@
-/**
- * HowToStep renders a numbered instruction step with a title,
- * description, and optional code snippet.
- */
+
 export default function HowToStep({ number, title, description, code }) {
   return (
     <div

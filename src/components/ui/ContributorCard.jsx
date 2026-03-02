@@ -1,9 +1,5 @@
 import SocialLink from "./SocialLink";
 
-/**
- * ContributorCard displays a single contributor with their avatar and social links.
- * The avatar is loaded from GitHub using the contributor's username.
- */
 export default function ContributorCard({ name, github, linkedin, twitter }) {
   return (
     <article
