@@ -20,7 +20,7 @@ An open-source project designed to help newcomers learn how to contribute to ope
 
 ```bash
 # Clone the repository
-git clone https://github.com/jmngandu/FREE-OPEN.git
+git clone https://github.com/mukuvi/FREE-OPEN.git
 
 # Navigate into the project
 cd FREE-OPEN
